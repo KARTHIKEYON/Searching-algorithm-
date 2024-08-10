@@ -1,0 +1,18 @@
+import java.util.*;
+public class LinearSearchExample{    
+    public static void main(String a[]){    
+        int[] arr= {10,20,30,50,70,90};    
+        int key = 50;    
+        int result=Arrays.binarySearch(arr,key);
+        if(result>0){
+           System.out.println("the index in:"+result);
+       }
+       else{
+           System.out.println("not found");
+       }
+    }    
+}    
+
+output:
+the index is:3
+used bineary search to solve the problem were Arrays.binearySearch(arr,key) is used to find the element in the arr and return the index of the array element
